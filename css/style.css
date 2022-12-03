@@ -10,7 +10,7 @@
 body {
     text-align: center;
     min-height: 100vh;
-    background: linear-gradient(to bottom, #6ab7f5, #fff);
+    background: linear-gradient(to bottom, #6ab7f5, rgb(255, 234, 234));
 }
 
 main {
@@ -33,6 +33,7 @@ main {
     transform: translate(-63%, 20%);
     height: 18%;
 }
+
 .pokemon_data {
     position: absolute;
     font-weight: 600;
@@ -92,4 +93,8 @@ main {
 .button:active {
     box-shadow: inset -4px 4px 0 #222;
     font-size: 0.9rem;
+}
+
+.button:hover {
+    cursor: pointer;
 }
